@@ -2,7 +2,9 @@
 	<header class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
 		<div class="container-fluid">
 			<h1 class="d-flex mb-0 fw-bold">
-				<a class="navbar-brand" href="#">멋진 헛간</a>
+				<a class="navbar-brand" href="https://sanggusseu.github.io/bookmark/">
+					멋진 헛간
+				</a>
 			</h1>
 			<button
 				class="navbar-toggler"
