@@ -59,6 +59,18 @@ const references = [
 		text: '엄선된 최고의 웹사이트 디자인 영감을 찾아보세요. 우리는 매일 업데이트되는 크리에이티브를 위한 선별된 웹사이트 디자인 갤러리입니다.',
 		url: 'https://land-book.com/',
 	},
+	{
+		type: '공통',
+		title: 'Behance',
+		text: '고용인과 크리에이터가 영감을 발견하는 것부터 서로 연결하는 것까지, 크리에이티브 세상을 탐색할 수 있도록 돕는 포괄적인 플랫폼입니다.',
+		url: 'https://www.behance.net/',
+	},
+	{
+		type: '공통',
+		title: 'Dribbble',
+		text: '전 세계 수백만 명의 최고 등급 디자이너 및 에이전시의 작품에서 영감을 얻으세요.',
+		url: 'https://dribbble.com/',
+	},
 ];
 
 const colors = [
@@ -124,10 +136,83 @@ const colors = [
 	},
 ];
 
+const images = [
+	{
+		type: '아이콘',
+		title: 'FLATICON',
+		text: '프로젝트에 맞는 무료 아이콘과 스티커를 다운로드하세요. 디자이너에 의해, 디자이너를 위해 만들어진 리소스입니다. PNG, SVG, EPS, PSD 및 CSS 형식.',
+		url: 'https://www.flaticon.com/',
+	},
+	{
+		type: '아이콘',
+		title: 'Noun Project',
+		text: 'FLATICON과 사용방법은 비슷한 아이콘 사이트, 다만 회원 가입을 해야만 아이콘을 다운로드 받을 수 있다.',
+		url: 'https://thenounproject.com/',
+	},
+	{
+		type: '아이콘',
+		title: 'freepik',
+		text: '고품질 사진, 비디오, 벡터, PSD, AI 이미지, 아이콘... 아이디어를 뛰어난 디자인으로 구현',
+		url: 'https://www.freepik.com/',
+	},
+	{
+		type: '아이콘',
+		title: 'Font Awesome',
+		text: '인터넷의 아이콘 라이브러리 + 툴킷. 수백만 명의 디자이너, 개발자, 콘텐츠 제작자가 사용합니다. 오픈 소스. 항상 무료입니다. 항상 대단해요.',
+		url: 'https://fontawesome.com/',
+	},
+	{
+		type: '아이콘',
+		title: 'Material Symbols & Icons - Google Fonts',
+		text: '머티리얼 디자인 아이콘 지침. 아이콘에 대한 최신 모범 사례에 대해 알아보세요.',
+		url: 'https://fonts.google.com/icons',
+	},
+	{
+		type: '이미지',
+		title: 'Pixabay',
+		text: '460만 개 이상의 고품질 스톡 이미지, 비디오 및 음악이 재능 있는 커뮤니티에서 공유됩니다.',
+		url: 'https://pixabay.com/',
+	},
+	{
+		type: '이미지',
+		title: 'Pic Jumbo',
+		text: '웹사이트, 템플릿, 블로그 게시물 또는 디자인에 사용할 무료 이미지, 배경 및 무료 사진을 다운로드하세요. 그리고 배경화면도 있어요!',
+		url: 'https://picjumbo.com/',
+	},
+	{
+		type: '이미지',
+		title: 'Gratisography',
+		text: '로열티 무료 HD 스톡 사진 및 이미지 정말 독특합니다. 보통은 기발해요 ;) 항상 무료입니다. 저작권 제한이 없는 안심 라이센스!',
+		url: 'https://gratisography.com/',
+	},
+	{
+		type: '이미지',
+		title: 'LittleVisuals',
+		text: '무료 고해상도 이미지.',
+		url: 'https://littlevisuals.co/',
+	},
+	{
+		type: '이미지',
+		title: 'Stocksnap',
+		text: '아름다운 무료 스톡 사진',
+		url: 'https://stocksnap.io/',
+	},
+	{
+		type: '이미지',
+		title: 'Unsplash',
+		text: '어떤 프로젝트를 위해서든 다운로드 및 사용할 수 있는 아름다운 무료 이미지 및 사진입니다. 어떤 로열티 프리 또는 스톡 사진보다 좋습니다.',
+		url: 'https://unsplash.com/ko',
+	},
+];
+
 export const fetchReferences = () => {
 	return references;
 };
 
 export const fetchColors = () => {
 	return colors;
+};
+
+export const fetchImages = () => {
+	return images;
 };
