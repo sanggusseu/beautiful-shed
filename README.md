@@ -1,35 +1,28 @@
-# beautiful-shed
+# 멋진 헛간
 
-This template should help get you started developing with Vue 3 in Vite.
+- [사이트 방문하기](https://sanggusseu.github.io/bookmark/)
 
-## Recommended IDE Setup
+## ✨ 프로젝트 소개
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- 자주 사용하는 유용한 사이트들을 즐겨찾기에만 저장하다 보면, 나중에 그 사이트가 무엇이었는지 기억나지 않거나, 너무 많아져서 찾기 어려운 경우가 많습니다.
+- 이러한 문제를 해결하기 위해, 카테고리 별로 사이트를 정리하고 각 사이트에 대한 간단한 설명과 링크를 함께 제공하는 사이트를 만들었습니다. 이 사이트를 통해 언제든 필요할 때 원하는 사이트를 쉽게 찾고 방문할 수 있습니다.
 
-## Customize configuration
+## 🛠 사용한 기술
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- **vue3** - 프로젝트의 프론트엔드를 구성하는 데 사용되었습니다.
+- **Vite** - 빠른 빌드 및 개발 환경을 위해 사용되었습니다.
+- **Bootstrap** - 빠른 UI 개발을 위해 사용되었습니다.
 
-## Project Setup
+## 📚 학습 내용 및 구현 기능
 
-```sh
-npm install
-```
+- **Vue 3 학습**: Vue 3를 배우기 시작한 초기 단계에서 기본 기능을 익히기 위해 프로젝트를 진행했습니다. 이 과정에서 아래와 같은 Vue 3의 핵심 기능을 활용했습니다.
 
-### Compile and Hot-Reload for Development
+- `v-for`: 목록 렌더링을 위해 사용
+- `props`: 컴포넌트 간 데이터 전달을 위해 사용
+- `component`: 재사용 가능한 컴포넌트 개발을 위해 사용
+- `slot`: 컴포넌트의 유연성을 높이기 위해 사용
 
-```sh
-npm run dev
-```
+## 🚀 주요 기능
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+- **카테고리별 사이트 정리**: 사용자가 자주 방문하는 사이트를 카테고리별로 나눠서 쉽게 찾을 수 있도록 구성했습니다.
+- **사이트 설명 및 링크 제공**: 각 사이트에 대한 간단한 설명과 함께 해당 사이트로 바로 이동할 수 있는 링크를 제공합니다.
