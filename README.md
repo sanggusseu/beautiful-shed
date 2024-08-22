@@ -1,6 +1,6 @@
 # 멋진 헛간
 
-- [사이트 방문하기](https://sanggusseu.github.io/bookmark/)
+[![홈 이미지](https://sanggusseu.github.io/bookmark/og-image.jpg)](https://sanggusseu.github.io/bookmark/)
 
 ## ✨ 프로젝트 소개
 
